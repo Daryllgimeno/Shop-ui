@@ -1,14 +1,12 @@
 
 import './App.css'
-
+import Productcard from './components/Productcard.jsx';
 function App() {
 
 
   return (
     <>
-     <h1 class="text-3xl font-bold underline bg-sky-50">
-    Hello world!
-  </h1>
+  <Productcard/>
     </>
   )
 }
