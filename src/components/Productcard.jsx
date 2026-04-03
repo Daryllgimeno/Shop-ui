@@ -1,17 +1,16 @@
 import React from 'react'
 
-
-
-function Productcard(product,description, onAdd) {
+function Productcard(props) {
   return (
     <div>
-      <h1>Product: {product}</h1>
-      <p>Description: {description}</p>
-       <button onClick={()=> onAdd(product)}>
-    Buy
-  </button>
+      <h1>Product: {props.product}</h1>
+      <p>Description: {props.description}</p>
+
+      <button onClick={() => props.onAdd(props.product)}>
+        Buy
+      </button>
     </div>
-  );
- 
+  )
 }
-export default Productcard;
+
+export default Productcard
