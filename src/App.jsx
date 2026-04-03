@@ -25,7 +25,33 @@ function App() {
           description="Made in Taiwan" 
           onAdd={addItem}
         />
-      </div>
+
+        <Productcard 
+        product="T-shirt"
+        description="Made in Singapore"
+        onAdd={addItem}
+        />     
+        
+
+         <Productcard 
+        product="Pants"
+        description="Made in Singapore"
+        onAdd={addItem}
+        />
+
+         <Productcard 
+        product="Maong"
+        description="Made in Singapore"
+        onAdd={addItem}
+
+
+
+        
+        />
+        
+        
+        
+         </div>
 
 
       <div className="bg-white p-6 rounded-2xl shadow-md w-72">
