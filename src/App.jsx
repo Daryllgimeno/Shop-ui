@@ -16,13 +16,13 @@ function App() {
       <div className="flex flex-col sm:flex-row gap-6 justify-center">
         <Productcard 
           product="Shoes" 
-          description="Made in Thailand" 
+          description="Made in Philippines" 
           onAdd={addItem}
         />
 
         <Productcard 
-          product="Bag" 
-          description="Made in China" 
+          product="belt" 
+          description="Made in Taiwan" 
           onAdd={addItem}
         />
       </div>
