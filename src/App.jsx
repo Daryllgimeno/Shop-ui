@@ -31,7 +31,7 @@ function App() {
       <div className="bg-white p-6 rounded-2xl shadow-md w-72">
         <h2 className="text-xl font-semibold mb-3 text-center">Items:</h2>
         {items.length === 0 ? (
-          <p className="text-gray-500 text-center">No items yet</p>
+          <p className="text-gray-500 text-center">Add Item</p>
         ) : (
           <ul className="space-y-2">
             {items.map((item, index) => (

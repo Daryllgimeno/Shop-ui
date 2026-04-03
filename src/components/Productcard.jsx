@@ -6,17 +6,17 @@ function Productcard(props) {
       
       <div className="space-y-2 text-center">
         <h1 className="text-xl font-semibold text-gray-800">
-          {props.product}
+          Product: {props.product}
         </h1>
 
         <p className="text-sm text-gray-500">
-          {props.description}
+         Description: {props.description}
         </p>
       </div>
 
       <button 
         onClick={() => props.onAdd(props.product)}
-        className="mt-4 w-full bg-purple-500 text-white py-2 rounded-lg font-medium hover:bg-purple-600 transition"
+        className="mt-4 w-full bg-sky-500 text-white py-2 rounded-lg font-medium hover:bg-blue-600 transition"
       >
         Buy
       </button>
